@@ -24,6 +24,13 @@
     transition: all 0.3s ease-out;
   }
 
+  .btn--primary--inverted {
+    background-color: #242424;
+    color: var(--primary);
+    border: 1px solid #242424;
+    width: 100%;
+  }
+
   .btn--medium {
     padding: 8px 20px;
     font-size: 18px;

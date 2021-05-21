@@ -2,9 +2,11 @@ import './App.css';
 import Navbar from './components/Navbar'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Home from './components/pages/Home'
-import Services from './components/pages/Services'
-import Products from './components/pages/Products'
-import SignUp from './components/pages/SignUp'
+import Crossfit from './components/pages/Crossfit'
+import PersonalTraining from './components/pages/PersonalTraining';
+import OpenGym from './components/pages/OpenGym';
+import GroupClass from './components/pages/GroupClass';
+import FunctionalTraining from './components/pages/FunctionalTraining';
 
 function App() {
   return (
@@ -13,9 +15,11 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home}/>
-        <Route path="/services" component={Services} />
-        <Route path="/products" component={Products} />
-        <Route path="/sign-up" component={SignUp} />
+        <Route path="/crossfit" component={Crossfit} />
+        <Route path="/personal-training" component={PersonalTraining} />
+        <Route path="/open-gym" component={OpenGym} />
+        <Route path="/group-class" component={GroupClass} />
+        <Route path="/functional-training" component={FunctionalTraining} />
       </Switch>
     </Router>
     </>

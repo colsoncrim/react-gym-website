@@ -10,7 +10,7 @@ function CardItem(props) {
                         <img className="cards__item__img" src={props.src} alt="Travel"/>
                     </figure>
                     <div className="cards__item__info">
-                        <h5 className="cards__item__text">{props.text}</h5>
+                        <h5 className="cards__item__text">{props.text} <i className="fas fa-arrow-right"></i></h5>
                     </div>
                 </Link>
             </li>

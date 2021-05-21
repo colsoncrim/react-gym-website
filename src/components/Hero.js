@@ -6,22 +6,22 @@ import { Button } from './Button'
 function Hero() {
     return (
         <div className="hero-container">
-            <h1>ADVENTURE AWAITS</h1>
-            <p>What are you waiting for?</p>
+            <h1>RESULTS DRIVEN</h1>
+            <p>Exceed your fitness goals</p>
             <div className="hero-btns">
                 <Button 
                     className="btns" 
                     buttonStyle="btn--outline" 
                     buttonSize="btn--large"
                     >
-                    GET STARTED
+                    LEARN MORE
                 </Button>
                 <Button 
                     className="btns" 
                     buttonStyle="btn--primary" 
                     buttonSize="btn--large"
                     >
-                    WATCH TRAILER <i className="far fa-play-circle" />
+                    OUR PROGRAMS
                 </Button>
             </div>
         </div>
