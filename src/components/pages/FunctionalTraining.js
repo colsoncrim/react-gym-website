@@ -8,7 +8,7 @@ export default function FunctionalTraining() {
         <>
         <Form 
             heading="FUNCTIONAL TRAINING"
-            details="List the details of the program here."
+            details="Try out our functional training program."
         />
         <Footer />
     </>

@@ -8,8 +8,7 @@ export default function PersonalTraining() {
         <>
         <Form 
             heading="PERSONAL TRAINING"
-            details="List the details of the program here."
-            style={{ backgroundImage: `url(${'../../static/img-2.jpg'})`}}
+            details="Try out our personal training program."
         />
         <Footer />
     </>

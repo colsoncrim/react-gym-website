@@ -8,7 +8,7 @@ export default function Crossfit() {
         <>
         <Form 
             heading="CROSSFIT 60"
-            details="List the details of the program here."
+            details="Try our signature CrossFit program."
         />
         <Footer />
     </>

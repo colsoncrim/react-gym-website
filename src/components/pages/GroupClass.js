@@ -8,7 +8,7 @@ export default function GroupClass() {
         <>
         <Form 
             heading="GROUP CLASS"
-            details="List the details of the program here."
+            details="Try out one of our group classes."
         />
         <Footer />
     </>

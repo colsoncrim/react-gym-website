@@ -8,7 +8,7 @@ export default function OpenGym() {
         <>
         <Form
             heading="OPEN GYM"
-            details="List the details of the program here."
+            details="Come check out the gym during our open hours."
         />
         <Footer />
     </>

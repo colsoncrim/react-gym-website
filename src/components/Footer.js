@@ -8,7 +8,7 @@ function Footer() {
         <div className='footer-container'>
         <section className='footer-subscription'>
           <p className='footer-subscription-heading'>
-            Join the Adventure newsletter to receive our best vacation deals
+            Join our monthly newsletter to receive top fitness tips
           </p>
           <p className='footer-subscription-text'>
             You can unsubscribe at any time.
@@ -32,24 +32,21 @@ function Footer() {
               <Link to='/sign-up'>How it works</Link>
               <Link to='/'>Testimonials</Link>
               <Link to='/'>Careers</Link>
-              <Link to='/'>Investors</Link>
-              <Link to='/'>Terms of Service</Link>
+              <Link to='/'>Team Members</Link>
             </div>
             <div class='footer-link-items'>
               <h2>Contact Us</h2>
               <Link to='/'>Contact</Link>
-              <Link to='/'>Support</Link>
-              <Link to='/'>Destinations</Link>
+              <Link to='/'>Terms of Service</Link>
               <Link to='/'>Sponsorships</Link>
             </div>
           </div>
           <div className='footer-link-wrapper'>
             <div class='footer-link-items'>
-              <h2>Videos</h2>
-              <Link to='/'>Submit Video</Link>
-              <Link to='/'>Ambassadors</Link>
-              <Link to='/'>Agency</Link>
-              <Link to='/'>Influencer</Link>
+              <h2>Our Policy</h2>
+              <Link to='/'>Membership Policies</Link>
+              <Link to='/'>Terms of Use</Link>
+              <Link to='/'>Privacy Policy</Link>
             </div>
             <div class='footer-link-items'>
               <h2>Social Media</h2>
